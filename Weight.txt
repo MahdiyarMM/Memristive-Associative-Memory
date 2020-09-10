@@ -1,0 +1,290 @@
+.SUBCKT  crb cpx1 cpx2 cpx3 cpx4 cpx5 cpx6 cpx7 cpx8 cpx9 cpx10 cpx11 cpx12 cpx13 cpx14 cpx15 cnx1 cnx2 cnx3 cnx4 cnx5 cnx6 cnx7 cnx8 cnx9 cnx10 cnx11 cnx12 cnx13 cnx14 cnx15 cpy1 cpy2 cny1 cny2 
+
+rpp1_1 cpx1 cpy1 16.0000meg
+rpp1_2 cpx1 cpy2 16.0000meg
+rpp2_1 cpx2 cpy1 16.0000meg
+rpp2_2 cpx2 cpy2 7.0000meg
+rpp3_1 cpx3 cpy1 7.0000meg
+rpp3_2 cpx3 cpy2 16.0000meg
+rpp4_1 cpx4 cpy1 16.0000meg
+rpp4_2 cpx4 cpy2 7.0000meg
+rpp5_1 cpx5 cpy1 16.0000meg
+rpp5_2 cpx5 cpy2 16.0000meg
+rpp6_1 cpx6 cpy1 16.0000meg
+rpp6_2 cpx6 cpy2 16.0000meg
+rpp7_1 cpx7 cpy1 16.0000meg
+rpp7_2 cpx7 cpy2 7.0000meg
+rpp8_1 cpx8 cpy1 16.0000meg
+rpp8_2 cpx8 cpy2 16.0000meg
+rpp9_1 cpx9 cpy1 16.0000meg
+rpp9_2 cpx9 cpy2 16.0000meg
+rpp10_1 cpx10 cpy1 16.0000meg
+rpp10_2 cpx10 cpy2 7.0000meg
+rpp11_1 cpx11 cpy1 16.0000meg
+rpp11_2 cpx11 cpy2 16.0000meg
+rpp12_1 cpx12 cpy1 16.0000meg
+rpp12_2 cpx12 cpy2 16.0000meg
+rpp13_1 cpx13 cpy1 16.0000meg
+rpp13_2 cpx13 cpy2 16.0000meg
+rpp14_1 cpx14 cpy1 7.0000meg
+rpp14_2 cpx14 cpy2 16.0000meg
+rpp15_1 cpx15 cpy1 16.0000meg
+rpp15_2 cpx15 cpy2 7.0000meg
+
+
+rpn1_1 cpx1 cny1 16.0000meg
+rpn1_2 cpx1 cny2 7.0000meg
+rpn2_1 cpx2 cny1 16.0000meg
+rpn2_2 cpx2 cny2 16.0000meg
+rpn3_1 cpx3 cny1 16.0000meg
+rpn3_2 cpx3 cny2 16.0000meg
+rpn4_1 cpx4 cny1 16.0000meg
+rpn4_2 cpx4 cny2 16.0000meg
+rpn5_1 cpx5 cny1 16.0000meg
+rpn5_2 cpx5 cny2 7.0000meg
+rpn6_1 cpx6 cny1 7.0000meg
+rpn6_2 cpx6 cny2 16.0000meg
+rpn7_1 cpx7 cny1 16.0000meg
+rpn7_2 cpx7 cny2 16.0000meg
+rpn8_1 cpx8 cny1 7.0000meg
+rpn8_2 cpx8 cny2 16.0000meg
+rpn9_1 cpx9 cny1 7.0000meg
+rpn9_2 cpx9 cny2 16.0000meg
+rpn10_1 cpx10 cny1 16.0000meg
+rpn10_2 cpx10 cny2 16.0000meg
+rpn11_1 cpx11 cny1 16.0000meg
+rpn11_2 cpx11 cny2 7.0000meg
+rpn12_1 cpx12 cny1 7.0000meg
+rpn12_2 cpx12 cny2 16.0000meg
+rpn13_1 cpx13 cny1 7.0000meg
+rpn13_2 cpx13 cny2 16.0000meg
+rpn14_1 cpx14 cny1 16.0000meg
+rpn14_2 cpx14 cny2 16.0000meg
+rpn15_1 cpx15 cny1 16.0000meg
+rpn15_2 cpx15 cny2 16.0000meg
+
+
+rnp1_1 cnx1 cpy1 16.0000meg
+rnp1_2 cnx1 cpy2 7.0000meg
+rnp2_1 cnx2 cpy1 16.0000meg
+rnp2_2 cnx2 cpy2 16.0000meg
+rnp3_1 cnx3 cpy1 16.0000meg
+rnp3_2 cnx3 cpy2 16.0000meg
+rnp4_1 cnx4 cpy1 16.0000meg
+rnp4_2 cnx4 cpy2 16.0000meg
+rnp5_1 cnx5 cpy1 16.0000meg
+rnp5_2 cnx5 cpy2 7.0000meg
+rnp6_1 cnx6 cpy1 7.0000meg
+rnp6_2 cnx6 cpy2 16.0000meg
+rnp7_1 cnx7 cpy1 16.0000meg
+rnp7_2 cnx7 cpy2 16.0000meg
+rnp8_1 cnx8 cpy1 7.0000meg
+rnp8_2 cnx8 cpy2 16.0000meg
+rnp9_1 cnx9 cpy1 7.0000meg
+rnp9_2 cnx9 cpy2 16.0000meg
+rnp10_1 cnx10 cpy1 16.0000meg
+rnp10_2 cnx10 cpy2 16.0000meg
+rnp11_1 cnx11 cpy1 16.0000meg
+rnp11_2 cnx11 cpy2 7.0000meg
+rnp12_1 cnx12 cpy1 7.0000meg
+rnp12_2 cnx12 cpy2 16.0000meg
+rnp13_1 cnx13 cpy1 7.0000meg
+rnp13_2 cnx13 cpy2 16.0000meg
+rnp14_1 cnx14 cpy1 16.0000meg
+rnp14_2 cnx14 cpy2 16.0000meg
+rnp15_1 cnx15 cpy1 16.0000meg
+rnp15_2 cnx15 cpy2 16.0000meg
+
+
+rnn1_1 cnx1 cny1 16.0000meg
+rnn1_2 cnx1 cny2 16.0000meg
+rnn2_1 cnx2 cny1 16.0000meg
+rnn2_2 cnx2 cny2 16.0000meg
+rnn3_1 cnx3 cny1 16.0000meg
+rnn3_2 cnx3 cny2 16.0000meg
+rnn4_1 cnx4 cny1 16.0000meg
+rnn4_2 cnx4 cny2 16.0000meg
+rnn5_1 cnx5 cny1 16.0000meg
+rnn5_2 cnx5 cny2 16.0000meg
+rnn6_1 cnx6 cny1 16.0000meg
+rnn6_2 cnx6 cny2 16.0000meg
+rnn7_1 cnx7 cny1 16.0000meg
+rnn7_2 cnx7 cny2 16.0000meg
+rnn8_1 cnx8 cny1 16.0000meg
+rnn8_2 cnx8 cny2 16.0000meg
+rnn9_1 cnx9 cny1 16.0000meg
+rnn9_2 cnx9 cny2 16.0000meg
+rnn10_1 cnx10 cny1 16.0000meg
+rnn10_2 cnx10 cny2 16.0000meg
+rnn11_1 cnx11 cny1 16.0000meg
+rnn11_2 cnx11 cny2 16.0000meg
+rnn12_1 cnx12 cny1 16.0000meg
+rnn12_2 cnx12 cny2 16.0000meg
+rnn13_1 cnx13 cny1 16.0000meg
+rnn13_2 cnx13 cny2 16.0000meg
+rnn14_1 cnx14 cny1 16.0000meg
+rnn14_2 cnx14 cny2 16.0000meg
+rnn15_1 cnx15 cny1 16.0000meg
+rnn15_2 cnx15 cny2 16.0000meg
+
+
+.ENDS crb
+
+******************************END OF MODELS AND SUBCIRCUITS*****************
+******************************SIMULATION***********************************
+*******Circuit Architecture*************** 
+*Crossbar
+xcrb cpx1 cpx2 cpx3 cpx4 cpx5 cpx6 cpx7 cpx8 cpx9 cpx10 cpx11 cpx12 cpx13 cpx14 cpx15 cnx1 cnx2 cnx3 cnx4 cnx5 cnx6 cnx7 cnx8 cnx9 cnx10 cnx11 cnx12 cnx13 cnx14 cnx15 cpy1 cpy2 cny1 cny2 crb
+
+
+*crossbar switches rows
+xscrbxp1 px1 wx1 cpx1 LS swt
+xscrbxp2 px2 wx2 cpx2 LS swt
+xscrbxp3 px3 wx3 cpx3 LS swt
+xscrbxp4 px4 wx4 cpx4 LS swt
+xscrbxp5 px5 wx5 cpx5 LS swt
+xscrbxp6 px6 wx6 cpx6 LS swt
+xscrbxp7 px7 wx7 cpx7 LS swt
+xscrbxp8 px8 wx8 cpx8 LS swt
+xscrbxp9 px9 wx9 cpx9 LS swt
+xscrbxp10 px10 wx10 cpx10 LS swt
+xscrbxp11 px11 wx11 cpx11 LS swt
+xscrbxp12 px12 wx12 cpx12 LS swt
+xscrbxp13 px13 wx13 cpx13 LS swt
+xscrbxp14 px14 wx14 cpx14 LS swt
+xscrbxp15 px15 wx15 cpx15 LS swt
+
+
+xscrbxn1 nx1 hzx1 cnx1 LS swt
+xscrbxn2 nx2 hzx2 cnx2 LS swt
+xscrbxn3 nx3 hzx3 cnx3 LS swt
+xscrbxn4 nx4 hzx4 cnx4 LS swt
+xscrbxn5 nx5 hzx5 cnx5 LS swt
+xscrbxn6 nx6 hzx6 cnx6 LS swt
+xscrbxn7 nx7 hzx7 cnx7 LS swt
+xscrbxn8 nx8 hzx8 cnx8 LS swt
+xscrbxn9 nx9 hzx9 cnx9 LS swt
+xscrbxn10 nx10 hzx10 cnx10 LS swt
+xscrbxn11 nx11 hzx11 cnx11 LS swt
+xscrbxn12 nx12 hzx12 cnx12 LS swt
+xscrbxn13 nx13 hzx13 cnx13 LS swt
+xscrbxn14 nx14 hzx14 cnx14 LS swt
+xscrbxn15 nx15 hzx15 cnx15 LS swt
+
+
+*crossbar switches colomns
+xscrbyp1 wy1 py1 cpy1 LS swt
+xscrbyp2 wy2 py2 cpy2 LS swt
+
+
+xscrbyn1 hzy1 ny1 cny1 LS swt
+xscrbyn2 hzy2 ny2 cny2 LS swt
+
+
+*high z resistors
+Rhzx1 hzx1 0 500G
+Rhzx2 hzx2 0 500G
+Rhzx3 hzx3 0 500G
+Rhzx4 hzx4 0 500G
+Rhzx5 hzx5 0 500G
+Rhzx6 hzx6 0 500G
+Rhzx7 hzx7 0 500G
+Rhzx8 hzx8 0 500G
+Rhzx9 hzx9 0 500G
+Rhzx10 hzx10 0 500G
+Rhzx11 hzx11 0 500G
+Rhzx12 hzx12 0 500G
+Rhzx13 hzx13 0 500G
+Rhzx14 hzx14 0 500G
+Rhzx15 hzx15 0 500G
+
+
+Rhzy1 hzy1 0 500G
+Rhzy2 hzy2 0 500G
+
+
+*neurons
+xnx1 inx1 px1 nx1 CLKx VDD VSS NEURON delay=0us
+xnx2 inx2 px2 nx2 CLKx VDD VSS NEURON delay=0us
+xnx3 inx3 px3 nx3 CLKx VDD VSS NEURON delay=0us
+xnx4 inx4 px4 nx4 CLKx VDD VSS NEURON delay=0us
+xnx5 inx5 px5 nx5 CLKx VDD VSS NEURON delay=0us
+xnx6 inx6 px6 nx6 CLKx VDD VSS NEURON delay=0us
+xnx7 inx7 px7 nx7 CLKx VDD VSS NEURON delay=0us
+xnx8 inx8 px8 nx8 CLKx VDD VSS NEURON delay=0us
+xnx9 inx9 px9 nx9 CLKx VDD VSS NEURON delay=0us
+xnx10 inx10 px10 nx10 CLKx VDD VSS NEURON delay=0us
+xnx11 inx11 px11 nx11 CLKx VDD VSS NEURON delay=0us
+xnx12 inx12 px12 nx12 CLKx VDD VSS NEURON delay=0us
+xnx13 inx13 px13 nx13 CLKx VDD VSS NEURON delay=0us
+xnx14 inx14 px14 nx14 CLKx VDD VSS NEURON delay=0us
+xnx15 inx15 px15 nx15 CLKx VDD VSS NEURON delay=0us
+
+
+xny1 iny1 py1 ny1 CLKy VDD VSS NEURON delay=0us
+xny2 iny2 py2 ny2 CLKy VDD VSS NEURON delay=0us
+
+
+*Neuron switches for pattern assignment
+xsnx1 patx1 wx1 inx1 ctrlx swt
+xsnx2 patx2 wx2 inx2 ctrlx swt
+xsnx3 patx3 wx3 inx3 ctrlx swt
+xsnx4 patx4 wx4 inx4 ctrlx swt
+xsnx5 patx5 wx5 inx5 ctrlx swt
+xsnx6 patx6 wx6 inx6 ctrlx swt
+xsnx7 patx7 wx7 inx7 ctrlx swt
+xsnx8 patx8 wx8 inx8 ctrlx swt
+xsnx9 patx9 wx9 inx9 ctrlx swt
+xsnx10 patx10 wx10 inx10 ctrlx swt
+xsnx11 patx11 wx11 inx11 ctrlx swt
+xsnx12 patx12 wx12 inx12 ctrlx swt
+xsnx13 patx13 wx13 inx13 ctrlx swt
+xsnx14 patx14 wx14 inx14 ctrlx swt
+xsnx15 patx15 wx15 inx15 ctrlx swt
+
+
+xsny1 paty1 wy1 iny1 ctrly swt
+xsny2 paty2 wy2 iny2 ctrly swt
+
+
+* voltage sources
+
+VDD VDD 0 DC 0.5VOLT
+VSS VSS 0 DC -0.5VOLT
+
+*input pattern
+vpatx1 patx1 0 -0.5
+vpatx2 patx2 0 0.5
+vpatx3 patx3 0 -0.5
+vpatx4 patx4 0 0.5
+vpatx5 patx5 0 -0.5
+vpatx6 patx6 0 0.5
+vpatx7 patx7 0 0.5
+vpatx8 patx8 0 0.5
+vpatx9 patx9 0 0.5
+vpatx10 patx10 0 0.5
+vpatx11 patx11 0 -0.5
+vpatx12 patx12 0 0.5
+vpatx13 patx13 0 0.5
+vpatx14 patx14 0 -0.5
+vpatx15 patx15 0 0.5
+
+
+vpaty1 paty1 0 -0.5
+vpaty2 paty2 0 0.5
+
+
+******Control Signals***********
+*CLK
+VCLKx CLKx 0 PULSE 0.5 -0.5 1us 10ns 10ns 4us 10us
+VCLKy CLKy 0 PULSE 0.5 -0.5 6us 10ns 10ns 4us 10us
+
+*Layer state x to Y->0.5 y to X->-0.5 
+VLS LS 0 PULSE -0.5 0.5 5us 10ns 10ns 5us 10us 
+
+*ctrl _input control siganl_
+vctrlx ctrlx 0 PWL 0 0.5 5us 0.5 5.01us -0.5 100us -0.5
+vctrly ctrly 0 -0.5
+
+.tran 100ns  100us UIC
+.option list node post=1
