@@ -1,0 +1,80 @@
+
+
+
+**** Neuron ****
+
+.SUBCKT  COMPARATOR  2 3 4 8 
+*pin order in VDD VSS out
+
+VOS 1 0 DC 0V
+M1 5 1 7 4 NMOS  L=1.800E-07   W=2.200E-07 
+M2 6 2 7 4 NMOS  L=1.800E-07   W=2.200e-007 
+M3 5 5 3 3 PMOS  L=1.800E-07   W=2.2e-007 
+M4 6 5 3 3 PMOS  L=1.800E-07   W=2.2e-007 
+M5 7 9 4 4 NMOS  L=1.800E-07   W=2.200e-007 
+M6 8 6 3 3 PMOS  L=1.800E-07   W=2.2e-007   
+M7 8 9 4 4 NMOS  L=1.800E-07   W=2.2e-007  
+M8 9 9 4 4 NMOS  L=1.800E-07    W=5e-005 
+
+.lib 'mm018.l' TT
+
+mr1 9 0 111 111 NMOS   L=1.800E-07   W=2.200E-07 
+mr2 111 0 0 0 NMOS   L=1.800E-07   W=2.200E-07 
+.ENDS COMPARATOR
+
+
+
+
+.SUBCKT not in  VDD VSS out 
+
+mQ1 out in VSS VSS NMOS  L=1.800E-07  W=2.200E-07 
+mQ3 out in VDD VDD PMOS  L=1.800E-07  W=2.200E-07
+
+.lib 'mm018.l' TT
+
+.ENDS not
+
+
+rread in 0 4700
+
+Gdelmid dd 0 DELAY 0 in  TD=0 SCALE=1 NPDELAY=25ns
+Rread2 dd 0 1 
+
+Xcomp dd vdd vss vp COMPARATOR
+Xnot vp vdd vss vn not
+
+
+.SUBCKT DFF D CLK Q VDD VSS 
+
+.lib 'mm018.l' TT
+*Mxxx nd ng ns mname
+M11 D1H D VDD VDD PMOS L=1.800E-07  W=2.200E-07 
+M12 D1L CLK D1H D1H PMOS L=1.800E-07  W=2.200E-07 
+M13 D1L D VSS VSS NMOS L=1.800E-07  W=2.200E-07 
+
+M21 D2H D1H VDD VDD PMOS L=1.800E-07  W=2.200E-07 
+M22 D2H CLK D2L D2L NMOS L=1.800E-07  W=2.200E-07 
+M23 D2L D1L VSS VSS NMOS L=1.800E-07  W=2.200E-07 
+
+M31 Q D2H VDD VDD PMOS L=1.800E-07  W=2.200E-07  
+M33 Q D2L VSS VSS NMOS L=1.800E-07  W=2.200E-07 
+
+.ENDS DFF
+
+
+Xdf Vn CLK Qb VDD VSS DFF
+XNNN Qb VDD VSS Q not
+
+
+
+
+VDD VDD 0 DC 0.5VOLT
+VSS VSS 0 DC -0.5VOLT
+VCLK CLK 0 PWL 0 0.5 10us 0.5 10.01us -0.5 15us -0.5 15.01us 0.5 65us 0.5 65.01us -0.5 70us -0.5 70.01us 0.5 100us 0.5
+VIN in 0 PWL 0 0.003 50us 0.003 50.01us -0.003 100us -0.003
+
+rn Qb 0 1meg
+rp Q 0 1meg
+.tran 100ns  100us UIC
+.option list node post=1
+.END
